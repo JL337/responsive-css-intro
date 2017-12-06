@@ -1,0 +1,89 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #fafafa;
+}
+.clr {
+	clear: both;
+}
+/*to call an ID use #*/
+#wrapper {
+	width:80%;
+	margin: 0 auto;
+}
+ #main {
+ 	width: 963px;
+ }
+ #footer {
+ 	width: 100%;
+ 	height: 100px;
+ 	background-color: #AACCDD;
+ }
+ #logo {
+ 	width: 50%;
+ }
+ #main #left_main{
+ 	width: 468px;
+ 	height: 100%;
+ 	float: left;
+ 	text-align: center;
+ 	/*it doesnt add padding to the width - box-sizing*/
+ 	box-sizing: border-box; 
+ }
+  #main #right_main{
+ 	width: 408px;
+ 	height: 100%;
+ 	float: left;
+ 	padding-top: 73px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ }
+ /*to call a class use a '.'*/
+ .panel {
+ 	background-color: #FFF;
+ 	border: 1px solid #EFEFEF;
+ 	padding: 35px 40px;
+ 	margin-bottom: 12px;
+ 	text-align: center;
+ }
+
+ .field input{
+ 	width:100%;
+ 	padding: 10px;
+ 	box-sizing: border-box;
+ 	outline:none;
+ 	border-radius: 5px;
+ 	margin-bottom: 10px;
+ 	font-size: 14px;
+
+ }
+ .field input[type="text"] {
+ 		border: 1px solid #EFEFEF;
+ 		background-color: #FAFAFA;
+ 		color: #0f0f0f;
+ }
+
+ .field input[type="submit"] {
+ 	background-color: #3b5998;
+ 	color: white;
+ }
+
+ /*media query to resize page*/
+ @media screen and (max-width: 960px){
+ 	 	#left_main {
+ 		display:none;
+ 	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
