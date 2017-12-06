@@ -70,10 +70,20 @@ html, body {
 
  /*media query to resize page*/
  @media screen and (max-width: 960px){
- 	 	#left_main {
+ 		#main {
+ 			width: 100%;
+ 		}
+
+ 	 	#main #left_main {
  		display:none;
- 	}
- }
+ 		}
+
+ 		#main #right_main{
+ 	  	width: 100%;
+  	 	float:none;
+  	 	padding: 20px;
+ 		}
+ }		
 
 
 
